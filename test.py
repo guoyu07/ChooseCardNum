@@ -39,8 +39,8 @@ def main():
 		scrape()
 		analyse()
 		
+		os.system('git diff num.txt')
 		os.system('git add .')
-		os.system('git diff –cached')
 		os.system('git commit -m "commit"')
 		
 		print '*'*50
