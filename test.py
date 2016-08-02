@@ -34,6 +34,7 @@ def analyse():
 def main():
 	
 	while (True):
+		print time.ctime()
 		time.sleep(60)
 		scrape()
 		analyse()
