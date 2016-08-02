@@ -38,8 +38,9 @@ def main():
 		print time.ctime()
 		scrape()
 		analyse()
-		
+		'''
 		os.system('git diff num.txt')
+		'''
 		os.system('git add .')
 		os.system('git commit -m "commit"')
 		
