@@ -10,12 +10,12 @@ def scrape():
 
 	up=urllib2.urlopen(url)
 	cont=up.read()
-	fp = open('src.txt', 'w')
+	fp = open('src_cmcc.txt', 'w')
 	fp.write(cont)
 	fp.close()
 
 def analyse():
-	fp = open('src.txt', 'r')
+	fp = open('src_cmcc.txt', 'r')
 	cont = fp.read()
 	numList = re.findall(r'1[3578]\d{9}',cont)
 	fp.close()
