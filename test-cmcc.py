@@ -6,7 +6,7 @@ import datetime
 import os
 
 def scrape():
-	url="http://num.10010.com/NumApp/chseNumList/serchNums?province=76&cityCode=760&sortType=numAsc&Show4GNum=TRUE&goodsNet=4"
+	url="http://www.ha.10086.cn/mall/kh-C.html"
 
 	up=urllib2.urlopen(url)
 	cont=up.read()
@@ -33,7 +33,7 @@ def analyse():
 	os.remove('src.txt')
 
 def main():
-	
+	'''
 	while (True):
 		time.sleep(60)
 		print time.ctime()
@@ -49,6 +49,7 @@ def main():
 		
 	'''
 	scrape()
+	'''
 	analyse()
 	'''
 	
