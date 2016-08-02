@@ -30,6 +30,7 @@ def analyse():
 	for a in numList:
 		fp1.write(a+'\n')
 	fp1.close()
+	os.remove('src.txt')
 
 def main():
 	
