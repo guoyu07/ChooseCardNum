@@ -1,23 +1,19 @@
-选号网址为： http://www.ha.10086.cn/mall/kh-C.html
-
-       
-       <ul>
-              <li><a id="c_A" target="_blank"  onclick="clickQuery(this);">郑州</a></li>
-              <li><a id="c_R" target="_blank"  onclick="clickQuery(this);">南阳</a></li>
-              <li><a id="c_K" target="_blank"  onclick="clickQuery(this);">许昌</a></li>
-              <li><a id="c_N" target="_blank"  onclick="clickQuery(this);">商丘</a></li>
-              <li><a id="c_C" target="_blank"  onclick="clickQuery(this);">洛阳</a></li>
-              <li><a id="c_B" target="_blank"  onclick="clickQuery(this);">开封</a></li>
-              <li><a id="c_S" target="_blank"  onclick="clickQuery(this);">信阳</a></li>
-              <li><a id="c_E" target="_blank"  onclick="clickQuery(this);">安阳</a></li>
-              <li><a id="c_P" target="_blank"  onclick="clickQuery(this);">周口</a></li>
-              <li><a id="c_F" target="_blank"  onclick="clickQuery(this);">鹤壁</a></li>
-              <li><a id="c_G" target="_blank"  onclick="clickQuery(this);">新乡</a></li>
-              <li><a id="c_J" target="_blank"  onclick="clickQuery(this);">濮阳</a></li>
-              <li><a id="c_Q" target="_blank"  onclick="clickQuery(this);">驻马店</a></li>
-              <li><a id="c_L" target="_blank"  onclick="clickQuery(this);">漯河</a></li>
-              <li><a id="c_H" target="_blank"  onclick="clickQuery(this);">焦作</a></li>
-              <li><a id="c_M" target="_blank"  onclick="clickQuery(this);">三门峡</a></li>
-              <li><a id="c_D" target="_blank"  onclick="clickQuery(this);">平顶山</a></li>
-              <li><a id="c_U" target="_blank"  onclick="clickQuery(this);">济源</a></li>
-            </ul>
+http://www.ha.10086.cn/mall/kh-A.html  郑州
+http://www.ha.10086.cn/mall/kh-R.html  南阳
+http://www.ha.10086.cn/mall/kh-K.html  许昌
+http://www.ha.10086.cn/mall/kh-N.html  商丘
+http://www.ha.10086.cn/mall/kh-C.html  洛阳
+http://www.ha.10086.cn/mall/kh-B.html  开封
+http://www.ha.10086.cn/mall/kh-S.html  信阳
+http://www.ha.10086.cn/mall/kh-E.html  安阳
+http://www.ha.10086.cn/mall/kh-P.html  周口
+http://www.ha.10086.cn/mall/kh-F.html  鹤壁
+http://www.ha.10086.cn/mall/kh-G.html  新乡
+http://www.ha.10086.cn/mall/kh-J.html  濮阳
+http://www.ha.10086.cn/mall/kh-Q.html  驻马店
+http://www.ha.10086.cn/mall/kh-L.html  漯河
+http://www.ha.10086.cn/mall/kh-H.html  焦作
+http://www.ha.10086.cn/mall/kh-M.html  三门峡
+http://www.ha.10086.cn/mall/kh-D.html  平顶山
+http://www.ha.10086.cn/mall/kh-U.html  济源
+   
