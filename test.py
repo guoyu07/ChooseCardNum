@@ -3,6 +3,7 @@ import urllib2
 import re
 import time
 import datetime
+import os
 
 def scrape():
 	url="http://num.10010.com/NumApp/chseNumList/serchNums?province=76&cityCode=760&sortType=numAsc&Show4GNum=TRUE&goodsNet=4"
@@ -18,23 +19,31 @@ def analyse():
 	cont = fp.read()
 	numList = re.findall(r'1[3578]\d{9}',cont)
 	fp.close()
-'''	
+	'''	
 	regex1 = re.compile(r' ')
 	regex2 = re.compile(r':')
 	result1, number = re.subn(regex1, '-', time.ctime())
 	result2, number = re.subn(regex2, '_', result1)
 	fp = open(result2 + ".txt", 'w')
-'''
-	fp = open("number.txt", 'w')
+	'''
+	fp1 = open('num.txt', 'w')
 	for a in numList:
-		fp.write(a+'\n')
-	fp.close()
+		fp1.write(a+'\n')
+	fp1.close()
 
 def main():
+	
 	while (True):
 		time.sleep(60)
 		scrape()
 		analyse()
+		os.system('git add .')
+		os.system('git commit -m "commit"')
+		
+	'''
+	scrape()
+	analyse()
+	'''
 	
 if __name__ == '__main__':
 	main()
