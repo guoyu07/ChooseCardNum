@@ -34,12 +34,13 @@ def analyse():
 def main():
 	
 	while (True):
-		print time.ctime()
 		time.sleep(60)
+		print time.ctime()
 		scrape()
 		analyse()
 		os.system('git add .')
 		os.system('git commit -m "commit"')
+		print '*'*50
 		
 	'''
 	scrape()
