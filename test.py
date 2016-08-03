@@ -35,7 +35,6 @@ def analyse():
 def main():
 	
 	while (True):
-		time.sleep(60)
 		print time.ctime()
 		scrape()
 		analyse()
@@ -46,7 +45,7 @@ def main():
 		os.system('git commit -m "commit"')
 		
 		print '*'*50
-		
+		time.sleep(60)
 	'''
 	scrape()
 	analyse()
