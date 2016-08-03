@@ -16,4 +16,90 @@ http://www.ha.10086.cn/mall/kh-H.html  焦作
 http://www.ha.10086.cn/mall/kh-M.html  三门峡
 http://www.ha.10086.cn/mall/kh-D.html  平顶山
 http://www.ha.10086.cn/mall/kh-U.html  济源
-   
+
+http://www.ha.10086.cn/mall/kh.html?c=A&sn=&o=&pn=1&jx=&month=&day=&law=&gz_card_a=&gz_card_b=&gz_card_c=&gz_card_d=&lucky_num=&unlucky_num=&userDefined=&phoneNo=&show=&phv.phoneNo=&findway=   
+
+
+http://www.ha.10086.cn/mall/kh.html?c=C&sn=&o=&pn=&jx=&month=&day=&law=&gz_card_a=&gz_card_b=&gz_card_c=&gz_card_d=&lucky_num=&unlucky_num=&userDefined=1++++++000+&phoneNo=&show=&phv.phoneNo=&findway=
+
+参数含义：
+地市	c:A
+号码段：sn:
+			<li><a id="sn_1" onclick="clickQuery(this);">全部</a></li>
+            <li><a id="sn_134" onclick="clickQuery(this);">134</a></li>
+            <li><a id="sn_135" onclick="clickQuery(this);">135</a></li>
+            <li><a id="sn_136" onclick="clickQuery(this);">136</a></li>
+            <li><a id="sn_137" onclick="clickQuery(this);">137</a></li>
+            <li><a id="sn_138" onclick="clickQuery(this);">138</a></li>
+            <li><a id="sn_139" onclick="clickQuery(this);">139</a></li>
+            <li><a id="sn_150" onclick="clickQuery(this);">150</a></li>
+            <li><a id="sn_151" onclick="clickQuery(this);">151</a></li>
+            <li><a id="sn_152" onclick="clickQuery(this);">152</a></li>
+            <li><a id="sn_157" onclick="clickQuery(this);">157</a></li>
+            <li><a id="sn_158" onclick="clickQuery(this);">158</a></li>
+            <li><a id="sn_159" onclick="clickQuery(this);">159</a></li>
+            <li><a id="sn_182" onclick="clickQuery(this);">182</a></li>
+            <li><a id="sn_183" onclick="clickQuery(this);">183</a></li>
+            <li><a id="sn_187" onclick="clickQuery(this);">187</a></li>
+            <li><a id="sn_188" onclick="clickQuery(this);">188</a></li>
+爱情号码：o:
+			<li><a id="o_1" onclick="clickQuery(this);">不限</a></li>
+            <li><a id="o_5" onclick="clickQuery(this);">1314(一生一世) </a></li>
+            <li><a id="o_8" onclick="clickQuery(this);">1711(一心一意)</a></li>
+            <li><a id="o_2" onclick="clickQuery(this);">7319(天长地久)</a></li>
+            <li><a id="o_3" onclick="clickQuery(this);">1573(一往情深)</a></li>
+            <li><a id="o_4" onclick="clickQuery(this);">5407(我是你妻)</a></li>
+            <li><a id="o_6" onclick="clickQuery(this);">520(我爱你)</a></li>
+            <li><a id="o_7" onclick="clickQuery(this);">25184(爱我一辈子)</a></li>
+            <li><a id="o_9" onclick="clickQuery(this);">2014(爱你一生)</a></li>
+            <li><a id="o_10" onclick="clickQuery(this);">5230(我爱上你)</a></li>
+            <li><a id="o_11" onclick="clickQuery(this);">7758(亲亲我吧)</a></li>
+            <li><a id="o_12" onclick="clickQuery(this);">5170(我要亲你)</a></li>
+第几页	pn:
+
+吉祥号码jx:
+			<li><a id="jx_1"  onclick="clickQuery(this);">不限</a></li>
+            <li><a id="jx_2"  onclick="clickQuery(this);">尾数88</a></li>
+            <li><a id="jx_3"  onclick="clickQuery(this);">永恒99</a></li>
+            <li><a id="jx_4"  onclick="clickQuery(this);">无4号码</a></li>
+            <li><a id="jx_5"  onclick="clickQuery(this);">一路发168</a></li>
+            <li><a id="jx_6"  onclick="clickQuery(this);">六六大顺66</a></li>
+            <li><a id="jx_7"  onclick="clickQuery(this);">要发要发1818</a></li>
+            <li><a id="jx_8"  onclick="clickQuery(this);">我要发518</a></li>
+
+生日-月：	month:
+				01到12
+生日-日：	day:
+				01到28/29/30/31
+
+号码规则：	law:
+				<option >ABABAB</option>
+                <option >AAAA</option>
+                <option >ABCD</option>
+                <option >AABB</option>
+                <option >ABAB</option>
+                <option >ABBA</option>
+                <option >AABA</option>
+                <option >ABAC</option>
+                <option >AAA</option>
+                <option >AA</option>
+规则中ABCD的值：
+			gz_card_a:
+			gz_card_b:
+			gz_card_c:
+			gz_card_d:
+
+幸运数字：			
+			lucky_num:
+				0到9
+不幸运数字：				
+			unlucky_num:
+				0到9
+自定义：
+			userDefined:
+				1++++++++++		把+替换成相应的数字即可
+phoneNo:
+show:
+phv.phoneNo:
+卡号类型：	findway:
+				0到2：0——全部  1——在线购买（不可用）   2——营业厅预约
