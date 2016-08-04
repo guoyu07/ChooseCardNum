@@ -17,14 +17,35 @@ http://www.ha.10086.cn/mall/kh-M.html  三门峡
 http://www.ha.10086.cn/mall/kh-D.html  平顶山
 http://www.ha.10086.cn/mall/kh-U.html  济源
 
-http://www.ha.10086.cn/mall/kh.html?c=A&sn=&o=&pn=1&jx=&month=&day=&law=&gz_card_a=&gz_card_b=&gz_card_c=&gz_card_d=&lucky_num=&unlucky_num=&userDefined=&phoneNo=&show=&phv.phoneNo=&findway=   
+http://www.ha.10086.cn/mall/kh.html?c=A&sn=&o=&pn=&jx=&month=&day=&law=&gz_card_a=&gz_card_b=&gz_card_c=&gz_card_d=&lucky_num=&unlucky_num=&userDefined=&phoneNo=&show=&phv.phoneNo=&findway=   
 
 
 http://www.ha.10086.cn/mall/kh.html?c=C&sn=&o=&pn=&jx=&month=&day=&law=&gz_card_a=&gz_card_b=&gz_card_c=&gz_card_d=&lucky_num=&unlucky_num=&userDefined=1++++++000+&phoneNo=&show=&phv.phoneNo=&findway=
 
 参数含义：
-地市	c:A
+地市	c:
+使用举例：c=A
+			<li><a id="c_A" target="_blank"  onclick="clickQuery(this);">郑州</a></li>
+			<li><a id="c_R" target="_blank"  onclick="clickQuery(this);">南阳</a></li>
+			<li><a id="c_K" target="_blank"  onclick="clickQuery(this);">许昌</a></li>
+			<li><a id="c_N" target="_blank"  onclick="clickQuery(this);">商丘</a></li>
+			<li><a id="c_C" target="_blank"  onclick="clickQuery(this);">洛阳</a></li>
+			<li><a id="c_B" target="_blank"  onclick="clickQuery(this);">开封</a></li>
+			<li><a id="c_S" target="_blank"  onclick="clickQuery(this);">信阳</a></li>
+			<li><a id="c_E" target="_blank"  onclick="clickQuery(this);">安阳</a></li>
+			<li><a id="c_P" target="_blank"  onclick="clickQuery(this);">周口</a></li>
+			<li><a id="c_F" target="_blank"  onclick="clickQuery(this);">鹤壁</a></li>
+			<li><a id="c_G" target="_blank"  onclick="clickQuery(this);">新乡</a></li>
+			<li><a id="c_J" target="_blank"  onclick="clickQuery(this);">濮阳</a></li>
+			<li><a id="c_Q" target="_blank"  onclick="clickQuery(this);">驻马店</a></li>
+			<li><a id="c_L" target="_blank"  onclick="clickQuery(this);">漯河</a></li>
+			<li><a id="c_H" target="_blank"  onclick="clickQuery(this);">焦作</a></li>
+			<li><a id="c_M" target="_blank"  onclick="clickQuery(this);">三门峡</a></li>
+			<li><a id="c_D" target="_blank"  onclick="clickQuery(this);">平顶山</a></li>
+			<li><a id="c_U" target="_blank"  onclick="clickQuery(this);">济源</a></li>
+			
 号码段：sn:
+使用举例：sn=135
 			<li><a id="sn_1" onclick="clickQuery(this);">全部</a></li>
             <li><a id="sn_134" onclick="clickQuery(this);">134</a></li>
             <li><a id="sn_135" onclick="clickQuery(this);">135</a></li>
@@ -42,7 +63,9 @@ http://www.ha.10086.cn/mall/kh.html?c=C&sn=&o=&pn=&jx=&month=&day=&law=&gz_card_
             <li><a id="sn_183" onclick="clickQuery(this);">183</a></li>
             <li><a id="sn_187" onclick="clickQuery(this);">187</a></li>
             <li><a id="sn_188" onclick="clickQuery(this);">188</a></li>
+			
 爱情号码：o:
+使用举例：o=6
 			<li><a id="o_1" onclick="clickQuery(this);">不限</a></li>
             <li><a id="o_5" onclick="clickQuery(this);">1314(一生一世) </a></li>
             <li><a id="o_8" onclick="clickQuery(this);">1711(一心一意)</a></li>
@@ -56,8 +79,10 @@ http://www.ha.10086.cn/mall/kh.html?c=C&sn=&o=&pn=&jx=&month=&day=&law=&gz_card_
             <li><a id="o_11" onclick="clickQuery(this);">7758(亲亲我吧)</a></li>
             <li><a id="o_12" onclick="clickQuery(this);">5170(我要亲你)</a></li>
 第几页	pn:
+使用举例：pn=3
 
 吉祥号码jx:
+使用举例：jx=6
 			<li><a id="jx_1"  onclick="clickQuery(this);">不限</a></li>
             <li><a id="jx_2"  onclick="clickQuery(this);">尾数88</a></li>
             <li><a id="jx_3"  onclick="clickQuery(this);">永恒99</a></li>
@@ -68,11 +93,15 @@ http://www.ha.10086.cn/mall/kh.html?c=C&sn=&o=&pn=&jx=&month=&day=&law=&gz_card_
             <li><a id="jx_8"  onclick="clickQuery(this);">我要发518</a></li>
 
 生日-月：	month:
+使用举例：month=09
 				01到12
+				
 生日-日：	day:
+使用举例: day=15
 				01到28/29/30/31
 
 号码规则：	law:
+使用举例：law=AABA
 				<option >ABABAB</option>
                 <option >AAAA</option>
                 <option >ABCD</option>
@@ -84,18 +113,23 @@ http://www.ha.10086.cn/mall/kh.html?c=C&sn=&o=&pn=&jx=&month=&day=&law=&gz_card_
                 <option >AAA</option>
                 <option >AA</option>
 规则中ABCD的值：
+使用举例:gz_card_a=6
 			gz_card_a:
 			gz_card_b:
 			gz_card_c:
 			gz_card_d:
 
-幸运数字：			
+幸运数字：
+使用举例：lucky_num=9			
 			lucky_num:
 				0到9
-不幸运数字：				
+不幸运数字：
+使用举例：unlucky_num=4				
 			unlucky_num:
 				0到9
+				
 自定义：
+使用举例：userDefined=1++++++999+
 			userDefined:
 				1++++++++++		把+替换成相应的数字即可
 phoneNo:
