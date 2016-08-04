@@ -5,8 +5,10 @@ import time
 import datetime
 import os
 
-def scrape():
-	url="http://www.ha.10086.cn/mall/kh-C.html"
+def scrape(page):
+	urlPrefix = "http://www.ha.10086.cn/mall/kh.html?c=A&sn=&o=&pn="
+	urlSuffix = "&jx=&month=&day=&law=&gz_card_a=&gz_card_b=&gz_card_c=&gz_card_d=&lucky_num=&unlucky_num=&userDefined=&phoneNo=&show=&phv.phoneNo=&findway="
+	url = urlPrefix + page + urlSuffix
 
 	up=urllib2.urlopen(url)
 	cont=up.read()
@@ -23,9 +25,34 @@ def getNum():
 	while getLine:
 		if numInLine in getLine:		#找到有号码的行
 			cardNum = getLine.split("'")[1]
+			fpDest.write(cardNum + '\n')
 			
 		getLine = fpSource.readline()
+
+	fpSource.close()
+	fpDest.close()
+
+def removeRepeat():
+	writeNumber = 0
+	fpDest1 = open('num_cmcc_1.txt', 'r')
+	fpDest2 = open('num_cmcc.txt', 'a')
 	
+	lastNum = ''
+	currentNum = fpDest1.readline()
+	while currentNum:
+		if (currentNum != lastNum):
+			writeNumber += 1  
+			fpDest2.write(currentNum)
+		
+		lastNum = currentNum
+		currentNum = fpDest1.readline()
+		
+		
+	fpDest1.close()
+	fpDest2.close()
+	
+	return writeNumber
+		
 def analyse():
 	fp = open('src_cmcc.txt', 'r')
 	cont = fp.read()
@@ -45,25 +72,23 @@ def analyse():
 	os.remove('src.txt')
 
 def main():
-	'''
-	while (True):
-		time.sleep(60)
-		print time.ctime()
-		scrape()
-		analyse()
-		
-		os.system('git diff num.txt')
-		
-		os.system('git add .')
-		os.system('git commit -m "commit"')
-		
-		print '*'*50
-		
-	'''
-	scrape()
-	'''
-	analyse()
-	'''
+	page = 1
+	if os.path.exists('num_cmcc.txt'):
+		os.remove('num_cmcc.txt')
+	if os.path.exists('num_cmcc_1.txt'):
+		os.remove('num_cmcc_1.txt') 
 	
+	while (True):
+		print 'Page:'+str(page)
+		scrape(str(page))
+		getNum()
+		number = removeRepeat()
+		if (number < 1):
+			print 'finished'
+			break
+			
+		page += 1
+	
+		
 if __name__ == '__main__':
 	main()

@@ -529,7 +529,7 @@ $(function(){
 </head>
 <body  onload="openStaticPopup_area()">
  <form id="paramFrom"  method="post">
-  <input type="hidden" id="c" name="c" value="C"/>
+  <input type="hidden" id="c" name="c" value="A"/>
   <input type="hidden" id="sn" name="sn" value=""/>
   <input type="hidden" id="o" name="o" value=""/>
   <input type="hidden" id="pn" name="pn" value=""/>
@@ -547,7 +547,7 @@ $(function(){
   <input type="hidden" id="phoneNo" name="phoneNo" value=""/>
   <input type="hidden" id="show" name="show" value=""/>
   <input type="hidden" id="phvPhoneNo" name="phv.phoneNo" value=""/>
-  <input type="hidden" id="findway" name="findway" value="0"/>
+  <input type="hidden" id="findway" name="findway" value=""/>
 </form>
 <div id="HiddenDiv">
   <div class="jumparea"><span class="close" title="关闭" onClick="$.closePopupLayer('jumparea')"></span>
@@ -596,7 +596,7 @@ $(function(){
 <script>
 var __appPath="http://www.ha.10086.cn:80/mall";
 var  c ;
-c = "C";
+c = "A";
 
 
  	// 登陆添加webtrends插码
@@ -1150,29 +1150,29 @@ function listSerach(gjz){
   <div class="sc_header">
     <div class="ydsc_logo "><a href="http://ha.10086.cn/" class="hn_logo"></a><a href="http://www.ha.10086.cn:80/mall/" class="sc_logo"></a></div>
     <div class="sc_switching">
-    <span class="left f14px">洛阳市</span>
+    <span class="left f14px">郑州市</span>
     <span class="tab"><b>[切换城市]</b>
       <div class="tab_city" style="z-index:99999;display:none;">
 <!--6 select_read_start-->
         <ul> 
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','A')">郑州</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','R')">南阳</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','K')">许昌</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','N')">商丘</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','C')">洛阳</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','B')">开封</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','S')">信阳</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','E')">安阳</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','P')">周口</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','F')">鹤壁</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','G')">新乡</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','J')">濮阳</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','Q')">驻马店</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','L')">漯河</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','H')">焦作</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','M')">三门峡</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','D')">平顶山</a></li>
-          <li><a onclick="qiehuanCity('areaCode=C&c=C','U')">济源</a></li>
+          <li><a onclick="qiehuanCity('null','A')">郑州</a></li>
+          <li><a onclick="qiehuanCity('null','R')">南阳</a></li>
+          <li><a onclick="qiehuanCity('null','K')">许昌</a></li>
+          <li><a onclick="qiehuanCity('null','N')">商丘</a></li>
+          <li><a onclick="qiehuanCity('null','C')">洛阳</a></li>
+          <li><a onclick="qiehuanCity('null','B')">开封</a></li>
+          <li><a onclick="qiehuanCity('null','S')">信阳</a></li>
+          <li><a onclick="qiehuanCity('null','E')">安阳</a></li>
+          <li><a onclick="qiehuanCity('null','P')">周口</a></li>
+          <li><a onclick="qiehuanCity('null','F')">鹤壁</a></li>
+          <li><a onclick="qiehuanCity('null','G')">新乡</a></li>
+          <li><a onclick="qiehuanCity('null','J')">濮阳</a></li>
+          <li><a onclick="qiehuanCity('null','Q')">驻马店</a></li>
+          <li><a onclick="qiehuanCity('null','L')">漯河</a></li>
+          <li><a onclick="qiehuanCity('null','H')">焦作</a></li>
+          <li><a onclick="qiehuanCity('null','M')">三门峡</a></li>
+          <li><a onclick="qiehuanCity('null','D')">平顶山</a></li>
+          <li><a onclick="qiehuanCity('null','U')">济源</a></li>
         </ul>
 <!--6 select_read_end -->
       </div>
@@ -1200,18 +1200,18 @@ function listSerach(gjz){
     <div class="all_class">
     <div class="class_item" style="display:none;">
         <dl><dt class="ico_1"></dt>
-          <dd class="bt"><strong><a href="http://www.ha.10086.cn:80/mall/list-sjtd-pm0-p0-0-C-C-1-C-0-o0-t0-0-cp0--1.html">手机</a></strong>
+          <dd class="bt"><strong><a href="http://www.ha.10086.cn:80/mall/list-sjtd-pm0-p0-0-A-A-1-A-0-o0-t0-0-cp0--1.html">手机</a></strong>
           <!--chaiyuzhen增加的4G图片开始-->
-          <a href="http://www.ha.10086.cn:80/mall/list-4gsj-pm0-p0-0-C-C-1-C-0-o0-t11-0-cp0--1.html">
+          <a href="http://www.ha.10086.cn:80/mall/list-4gsj-pm0-p0-0-A-A-1-A-0-o0-t11-0-cp0--1.html">
            <div  class="p_img"><img src="http://www.ha.10086.cn:80/mall/index/images/img_header/phone_4g.png"/></div>
           </a>
           <!--chaiyuzhen增加的4G图片开始结束-->
           <p>
-          <span><a href="http://www.ha.10086.cn:80/mall/list-gjshs-pm0-p0-0-C-C-1-C-0-o0-t6-0-cp0--1.html">购机送话费</a></span>
-          <span class="garyfe"><a href="http://www.ha.10086.cn:80/mall/list-yytsj-pm0-p0-0-C-C-1-C-0-o0-t7-0-cp0--1.html">营业厅购机</a></span>
-          <span><a href="http://www.ha.10086.cn:80/mall/list-sjtd-pm0-p0-0-C-C-1-C-0-o0-t0-0-cp0--1.html">裸机</a></span>
+          <span><a href="http://www.ha.10086.cn:80/mall/list-gjshs-pm0-p0-0-A-A-1-A-0-o0-t6-0-cp0--1.html">购机送话费</a></span>
+          <span class="garyfe"><a href="http://www.ha.10086.cn:80/mall/list-yytsj-pm0-p0-0-A-A-1-A-0-o0-t7-0-cp0--1.html">营业厅购机</a></span>
+          <span><a href="http://www.ha.10086.cn:80/mall/list-sjtd-pm0-p0-0-A-A-1-A-0-o0-t0-0-cp0--1.html">裸机</a></span>
           <!--chaiyuzhen将4G手机换成商城自营开始-->
-           <span class="garyfe"><a href="http://www.ha.10086.cn:80/mall/list-sczy-pm0-p0-0-C-C-1-C-0-o0-t13-0-cp0--1.html">商城自营</a></span>
+           <span class="garyfe"><a href="http://www.ha.10086.cn:80/mall/list-sczy-pm0-p0-0-A-A-1-A-0-o0-t13-0-cp0--1.html">商城自营</a></span>
           <!--chaiyuzhen将4G手机换成商城自营结束-->
           </p></dd>
           <!--手里菜单内容-->
@@ -1221,10 +1221,10 @@ function listSerach(gjz){
              <dl>
                 <dt class="fB blue" style="font-size:14px !important">移动4G：</dt>
                 <dd>
-                  <strong><a href='http://www.ha.10086.cn:80/mall/list-4gsj-pm0-p0-0-C-C-1-C-0-o0-t11-0-cp0--1.html'>全部4G手机</a></strong>
-                  <strong><a href='http://www.ha.10086.cn:80/mall/list-jssg11-pm0-p0-0-C-C-1-C-0-o0-t0-0-cp0-Note%202-1.html'>三星 NOTE2</a></strong>
-                  <strong><a href='http://www.ha.10086.cn:80/mall/list-jssg11-pm0-p0-0-C-C-1-C-0-o0-t0-0-cp0-7108D-1.html'>三星 7108D</a></strong>
-                  <strong><a href='http://www.ha.10086.cn:80/mall/list-jssg11-pm0-p0-0-C-C-1-C-0-o0-t0-0-cp0-M35T-1.html'>索尼 M35T</a></strong>
+                  <strong><a href='http://www.ha.10086.cn:80/mall/list-4gsj-pm0-p0-0-A-A-1-A-0-o0-t11-0-cp0--1.html'>全部4G手机</a></strong>
+                  <strong><a href='http://www.ha.10086.cn:80/mall/list-jssg11-pm0-p0-0-A-A-1-A-0-o0-t0-0-cp0-Note%202-1.html'>三星 NOTE2</a></strong>
+                  <strong><a href='http://www.ha.10086.cn:80/mall/list-jssg11-pm0-p0-0-A-A-1-A-0-o0-t0-0-cp0-7108D-1.html'>三星 7108D</a></strong>
+                  <strong><a href='http://www.ha.10086.cn:80/mall/list-jssg11-pm0-p0-0-A-A-1-A-0-o0-t0-0-cp0-M35T-1.html'>索尼 M35T</a></strong>
                  </strong>
                 </dd>
               </dl>-->
@@ -1232,39 +1232,39 @@ function listSerach(gjz){
               <dl>
                 <dt>品牌：</dt>
                 <dd>
-                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167146-C.html'>&#33529;&#26524;（APPLE）</a></span>
-                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167110-C.html'>&#19977;&#26143;（SAMSUNG）</a></span>
-                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167107-C.html'>&#35834;&#22522;&#20122;（NOKIA）</a></span>
-                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167108-C.html'>&#25705;&#25176;&#32599;&#25289;（Motorola）</a></span>
-                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167129-C.html'>HTC</a></span>
-                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167125-C.html'>&#21326;&#20026;</a></span>
-                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167121-C.html'>&#32852;&#24819; （Lenovo）</a></span>
-                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167120-C.html'>&#37239;&#27966; （Coolpad）</a></span>
-                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167124-C.html'>&#20013;&#20852;</a></span>
+                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167146-A.html'>&#33529;&#26524;（APPLE）</a></span>
+                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167110-A.html'>&#19977;&#26143;（SAMSUNG）</a></span>
+                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167107-A.html'>&#35834;&#22522;&#20122;（NOKIA）</a></span>
+                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167108-A.html'>&#25705;&#25176;&#32599;&#25289;（Motorola）</a></span>
+                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167129-A.html'>HTC</a></span>
+                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167125-A.html'>&#21326;&#20026;</a></span>
+                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167121-A.html'>&#32852;&#24819; （Lenovo）</a></span>
+                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167120-A.html'>&#37239;&#27966; （Coolpad）</a></span>
+                  <span><a href='http://www.ha.10086.cn:80/mall/list-2npsIds-1-167124-A.html'>&#20013;&#20852;</a></span>
                 </dd>
               </dl>
               <dl>
                 <dt>活动：</dt>
                 <dd>
-                <span><a href="http://www.ha.10086.cn:80/mall/list-2spti-1-t6-C.html">购机送话费</a></span>
-                <span class="garyfe"><a href="http://www.ha.10086.cn:80/mall/list-yytsj-pm0-p0-0-C-C-1-C-0-o0-t7-0-cp0--1.html">营业厅购机</a></span>
+                <span><a href="http://www.ha.10086.cn:80/mall/list-2spti-1-t6-A.html">购机送话费</a></span>
+                <span class="garyfe"><a href="http://www.ha.10086.cn:80/mall/list-yytsj-pm0-p0-0-A-A-1-A-0-o0-t7-0-cp0--1.html">营业厅购机</a></span>
                 <!--chaiyuzhen增加商城自营导航开始-->
-                <span class="garyfe"><a href="http://www.ha.10086.cn:80/mall/list-sczy-pm0-p0-0-C-C-1-C-0-o0-t13-0-cp0--1.html">商城自营</a></span>
+                <span class="garyfe"><a href="http://www.ha.10086.cn:80/mall/list-sczy-pm0-p0-0-A-A-1-A-0-o0-t13-0-cp0--1.html">商城自营</a></span>
                 <!--chaiyuzhen增加商城自营导航结束-->
-                <span><a href="http://www.ha.10086.cn:80/mall/list-sjtd-pm0-p0-0-C-C-1-C-0-o0-t0-0-cp0--1.html">裸机</a></span>
+                <span><a href="http://www.ha.10086.cn:80/mall/list-sjtd-pm0-p0-0-A-A-1-A-0-o0-t0-0-cp0--1.html">裸机</a></span>
                 </dd>
               </dl>
               <dl>
                 <dt>价格区间：</dt>
                 <dd>
                  <!-- <span><a href="#">1-499</a></span><span><a href="#">500-999</a></span><span><a href="#">1000-1999</a></span><span><a href="#">2000-2999</a></span><span><a href="#">3000-3999</a></span><span><a href="#">4000-4999</a></span><span><a href="#">5000以上</a></span>  -->
-                 <span><a href="http://www.ha.10086.cn:80/mall/list-2spr-1-p9-C.html">300元以下</a></span>   
-                 <span><a href="http://www.ha.10086.cn:80/mall/list-2spr-1-p8-C.html">500元以下</a></span>   
-                 <span><a href="http://www.ha.10086.cn:80/mall/list-2spr-1-p4-C.html">800元以下</a></span>   
-                 <span><a href="http://www.ha.10086.cn:80/mall/list-2spr-1-p1-C.html">800-1500</a></span>   
-                 <span><a href="http://www.ha.10086.cn:80/mall/list-2spr-1-p2-C.html">1500-2000</a></span>   
-                 <span><a href="http://www.ha.10086.cn:80/mall/list-2spr-1-p3-C.html">2000-2500</a></span>  
-                 <span><a href="http://www.ha.10086.cn:80/mall/list-2spr-1-p10-C.html">2500以上</a></span>  
+                 <span><a href="http://www.ha.10086.cn:80/mall/list-2spr-1-p9-A.html">300元以下</a></span>   
+                 <span><a href="http://www.ha.10086.cn:80/mall/list-2spr-1-p8-A.html">500元以下</a></span>   
+                 <span><a href="http://www.ha.10086.cn:80/mall/list-2spr-1-p4-A.html">800元以下</a></span>   
+                 <span><a href="http://www.ha.10086.cn:80/mall/list-2spr-1-p1-A.html">800-1500</a></span>   
+                 <span><a href="http://www.ha.10086.cn:80/mall/list-2spr-1-p2-A.html">1500-2000</a></span>   
+                 <span><a href="http://www.ha.10086.cn:80/mall/list-2spr-1-p3-A.html">2000-2500</a></span>  
+                 <span><a href="http://www.ha.10086.cn:80/mall/list-2spr-1-p10-A.html">2500以上</a></span>  
                 </dd>
               </dl>
               <!--  
@@ -1277,21 +1277,21 @@ function listSerach(gjz){
                 <dt>系统：</dt>
                 <dd>
                <!--<span><a href="#">Android</a></span><span><a href="#">WindowsPhone</a></span><span><a href="#">IOS</a></span><span><a href="#">Symbian(S60以上)</a></span><span><a href="#">其他智能系统</a></span><span><a href="#">非智能系统</a></span> -->
-                <span><a href="http://www.ha.10086.cn:80/mall/list-2spos-1-o1-C.html">Symbian</a></span>
-                <span><a href="http://www.ha.10086.cn:80/mall/list-2spos-1-o2-C.html">Android</a></span>
-                <span><a href="http://www.ha.10086.cn:80/mall/list-2spos-1-o3-C.html">OPhone</a></span>
+                <span><a href="http://www.ha.10086.cn:80/mall/list-2spos-1-o1-A.html">Symbian</a></span>
+                <span><a href="http://www.ha.10086.cn:80/mall/list-2spos-1-o2-A.html">Android</a></span>
+                <span><a href="http://www.ha.10086.cn:80/mall/list-2spos-1-o3-A.html">OPhone</a></span>
                 </dd>
               </dl>
               <dl>
                 <dt>特点：</dt>
                 <dd>
                 <!-- <span><a href="#">3G视频通话</a></span><span><a href="#">高像素手机</a></span><span><a href="#">手机电视</a></span><span><a href="#">商务手机</a></span><span><a href="#">女性手机</a></span><span><a href="#">老人手机</a></span><span><a href="#">音乐手机</a></span> -->
-                         <span><a href="http://www.ha.10086.cn:80/mall/list-2spti-1-t1-C.html">音乐手机</a></span>
-		                <span><a href="http://www.ha.10086.cn:80/mall/list-2spti-1-t2-C.html">商务手机</a></span>
-		                <span><a href="http://www.ha.10086.cn:80/mall/list-2spti-1-t3-C.html">女性手机</a></span>
-		                <span><a href="http://www.ha.10086.cn:80/mall/list-2spti-1-t4-C.html">老人手机</a></span>
-		                <span><a href="http://www.ha.10086.cn:80/mall/list-2spti-1-t5-C.html">智能手机</a></span>
-		                <span><a href="http://www.ha.10086.cn:80/mall/list-2spti-1-t9-C.html">双卡双待</a></span>
+                         <span><a href="http://www.ha.10086.cn:80/mall/list-2spti-1-t1-A.html">音乐手机</a></span>
+		                <span><a href="http://www.ha.10086.cn:80/mall/list-2spti-1-t2-A.html">商务手机</a></span>
+		                <span><a href="http://www.ha.10086.cn:80/mall/list-2spti-1-t3-A.html">女性手机</a></span>
+		                <span><a href="http://www.ha.10086.cn:80/mall/list-2spti-1-t4-A.html">老人手机</a></span>
+		                <span><a href="http://www.ha.10086.cn:80/mall/list-2spti-1-t5-A.html">智能手机</a></span>
+		                <span><a href="http://www.ha.10086.cn:80/mall/list-2spti-1-t9-A.html">双卡双待</a></span>
                 </dd>
               </dl>
               <!--  
@@ -1323,18 +1323,18 @@ function listSerach(gjz){
           
         </dl>
         <dl><dt class="ico_2"></dt>
-          <dd class="bt"><strong><a href="http://www.ha.10086.cn:80/mall/kh-C.html">网上选号</a></strong><p><span><a href="http://www.ha.10086.cn:80/mall/kh-C.html">全部靓号</a></span><span><a href="#">188靓号专区</a></span></p></dd> 
+          <dd class="bt"><strong><a href="http://www.ha.10086.cn:80/mall/kh-A.html">网上选号</a></strong><p><span><a href="http://www.ha.10086.cn:80/mall/kh-A.html">全部靓号</a></span><span><a href="#">188靓号专区</a></span></p></dd> 
           <!--网上选号菜单内容-->
           <dd class="it_list">
             <div class="i-mc">
               <dl>
                 <dt>全部号段：</dt>
-                <dd><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-134-C.html">134</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-135-C.html">135</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-136-C.html">136</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-137-C.html">137</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-138-C.html">138</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-139-C.html">139</a></span><span><a href="#">150</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-151-C.html">151</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-152-C.html">152</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-157-C.html">157</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-158-C.html">158</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-159-C.html">159</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-182-C.html">182</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-183-C.html">183</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-187-C.html">187</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-188-C.html">188</a></span></dd>
+                <dd><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-134-A.html">134</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-135-A.html">135</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-136-A.html">136</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-137-A.html">137</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-138-A.html">138</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-139-A.html">139</a></span><span><a href="#">150</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-151-A.html">151</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-152-A.html">152</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-157-A.html">157</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-158-A.html">158</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-159-A.html">159</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-182-A.html">182</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-183-A.html">183</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-187-A.html">187</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-sn-188-A.html">188</a></span></dd>
               </dl>
               <!--  
               <dl>
                 <dt>吉祥号码：</dt>
-                <dd><span><a href="http://www.ha.10086.cn:80/mall/kh-jx-2-C.html">尾数88</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-jx-4-C.html">无4号码</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-jx-5-C.html">一路发168</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-jx-6-C.html">六六大顺66</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-jx-7-C.html">要发要发1818</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-jx-8-C.html">我要发518</a></span></dd>
+                <dd><span><a href="http://www.ha.10086.cn:80/mall/kh-jx-2-A.html">尾数88</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-jx-4-A.html">无4号码</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-jx-5-A.html">一路发168</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-jx-6-A.html">六六大顺66</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-jx-7-A.html">要发要发1818</a></span><span><a href="http://www.ha.10086.cn:80/mall/kh-jx-8-A.html">我要发518</a></span></dd>
               </dl>
               -->
               <dl>
@@ -1362,7 +1362,7 @@ function listSerach(gjz){
         </dl>
         <dl class="no_rigbor"><dt class="ico_3"></dt>
 <!--5 select_read_start-->
-          <dd class="bt3"><strong><a href="http://www.ha.10086.cn:80/mall/pj-q--C.html">手机配件</a></strong><p><span><a href="http://www.ha.10086.cn:80/mall/pj-gtl-0-4029304-C.html">手机存储卡</a></span><span><a href="http://www.ha.10086.cn:80/mall/pj-gtl-1-4029370-C.html">手机电池</a></span><span><a href="http://www.ha.10086.cn:80/mall/pj-gtl-2-4029376-C.html">手机耳机</a></span><span><a href="http://www.ha.10086.cn:80/mall/pj-gtl-3-4029373-C.html">手机保护套</a></span><span><a href="http://www.ha.10086.cn:80/mall/pj-gtl-4-4029374-C.html">iPhone 配件</a></span></p></dd>
+          <dd class="bt3"><strong><a href="http://www.ha.10086.cn:80/mall/pj-q--A.html">手机配件</a></strong><p><span><a href="http://www.ha.10086.cn:80/mall/pj-gtl-0-4029304-A.html">手机存储卡</a></span><span><a href="http://www.ha.10086.cn:80/mall/pj-gtl-1-4029370-A.html">手机电池</a></span><span><a href="http://www.ha.10086.cn:80/mall/pj-gtl-2-4029376-A.html">手机耳机</a></span><span><a href="http://www.ha.10086.cn:80/mall/pj-gtl-3-4029373-A.html">手机保护套</a></span><span><a href="http://www.ha.10086.cn:80/mall/pj-gtl-4-4029374-A.html">iPhone 配件</a></span></p></dd>
 <!--5 select_read_end -->
         </dl>
         <dl class="noBorder"><dt class="ico_4"></dt>
@@ -1375,8 +1375,8 @@ function listSerach(gjz){
       <ul class="nav">
         <li class="no_bor" style=""><a href="http://www.ha.10086.cn/hmall/mainpage/index.do" class="click">商城首页</a></li>
         <li><a href="http://www.ha.10086.cn/hmall/list/viewList.do?areaCode=A&SP_ZCQD=01">营业厅购机</a></li>
-        <!-- <li><a href="http://www.ha.10086.cn:80/mall/tg-C.html">团购</a></li> -->
-        <li><a href="http://www.ha.10086.cn:80/mall/kh-C.html">全部靓号</a></li>
+        <!-- <li><a href="http://www.ha.10086.cn:80/mall/tg-A.html">团购</a></li> -->
+        <li><a href="http://www.ha.10086.cn:80/mall/kh-A.html">全部靓号</a></li>
         <li><a href="http://service.ha.10086.cn/service/index.action">网上营业厅</a></li>
         <li><a href="http://www.ha.10086.cn/hmall/list/viewList.do?areaCode=A&SP_ZCQD=02">商城自营</a></li>
         <li><a href="http://www.ha.10086.cn/gmall/login/logon.do">VIP购机专区</a></li>
@@ -1407,36 +1407,12 @@ function listSerach(gjz){
   <div class="main_left">
   <div class="all">
        
-		    
-        		<a target="_blank" href="http://www.ha.10086.cn/mall/qt/cardshow.action"><img src="/mall/front/card2013/images/img_card/index_ad1.jpg"></a> 
-		    
-        
-		    
-        
-		    
-        
-		    
-        
-		    
-        		<a target="_blank" href="http://www.ha.10086.cn/mall/front/cardchange/changeindex.jsp?WT.mc_ev=140812service01?WT.mc_ev=0815shop01xhym"><img src="/mall/admin/upload/adv/1yuanadweb_241×80.jpg"></a> 
-		    
-        
-		    
-        
-		    
-        
-		    
-        
-		    
-        		<a target="_blank" href="#"><img src="/mall/admin/upload/advnew/b04ec7e3-78b3-49e9-a950-dec25b1b3bdc.jpg"></a> 
-		    
-        
     </div>
     <div class="blank10"></div>
     <div class="choose_c" id="this_pos">
       <div class="choose_t">
         <div class="choose_n"><span class="choose_n_img"></span>选号码</div>
-        <div class="zz"><b>洛阳</b><span><a href="#" class="zz_t">[切换城市]</a>
+        <div class="zz"><b></b><span><a href="#" class="zz_t">[切换城市]</a>
           <div class="tab_city1" style="display:none;">
             <ul>
               <li><a id="c_A" target="_blank"  onclick="clickQuery(this);">郑州</a></li>
@@ -1638,961 +1614,11 @@ function listSerach(gjz){
       <table width="720" border="0" cellspacing="0" cellpadding="1" class="tel_table1">
         	<tr>
         
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3907 <span>7327</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3907 <span>7327</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18739077327')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18739077327')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3907 <span>5332</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3907 <span>5332</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18739075332')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18739075332')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3905 <span>9253</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3905 <span>9253</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18739059253')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18739059253')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3905 <span>5730</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3905 <span>5730</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18739055730')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18739055730')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 </tr>
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3639 <span>6837</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3639 <span>6837</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736396837')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736396837')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3637 <span>9029</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3637 <span>9029</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736379029')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736379029')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3637 <span>1135</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3637 <span>1135</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736371135')">营业厅预约</a>
-					</div>
-					<!--
-					
-							
-					<div class="buy">	
-					<a onclick="to_buy('18736371135')">立即购买</a>
-					</div>
-	                <div class="contrast">
-	                <a onclick="addPhoneNum('18736371135','C')">加入备选</a>
-					</div>
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3633 <span>9675</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3633 <span>9675</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736339675')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736339675')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 </tr>
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3633 <span>2502</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3633 <span>2502</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736332502')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736332502')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3633 <span>2136</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3633 <span>2136</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736332136')">营业厅预约</a>
-					</div>
-					<!--
-					
-							
-					<div class="buy">	
-					<a onclick="to_buy('18736332136')">立即购买</a>
-					</div>
-	                <div class="contrast">
-	                <a onclick="addPhoneNum('18736332136','C')">加入备选</a>
-					</div>
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3632 <span>8731</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3632 <span>8731</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736328731')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736328731')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3632 <span>5379</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3632 <span>5379</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736325379')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736325379')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 </tr>
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3632 <span>1395</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3632 <span>1395</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736321395')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736321395')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3631 <span>6792</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3631 <span>6792</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736316792')">营业厅预约</a>
-					</div>
-					<!--
-					
-							
-					<div class="buy">	
-					<a onclick="to_buy('18736316792')">立即购买</a>
-					</div>
-	                <div class="contrast">
-	                <a onclick="addPhoneNum('18736316792','C')">加入备选</a>
-					</div>
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3631 <span>2835</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3631 <span>2835</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736312835')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736312835')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3631 <span>2167</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3631 <span>2167</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736312167')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736312167')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 </tr>
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3630 <span>7230</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3630 <span>7230</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736307230')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736307230')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3629 <span>7293</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3629 <span>7293</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736297293')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736297293')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3629 <span>7095</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3629 <span>7095</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736297095')">营业厅预约</a>
-					</div>
-					<!--
-					
-							
-					<div class="buy">	
-					<a onclick="to_buy('18736297095')">立即购买</a>
-					</div>
-	                <div class="contrast">
-	                <a onclick="addPhoneNum('18736297095','C')">加入备选</a>
-					</div>
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3629 <span>1312</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3629 <span>1312</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736291312')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736291312')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 </tr>
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3628 <span>5637</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3628 <span>5637</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736285637')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736285637')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3628 <span>3850</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3628 <span>3850</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736283850')">营业厅预约</a>
-					</div>
-					<!--
-					
-							
-					<div class="buy">	
-					<a onclick="to_buy('18736283850')">立即购买</a>
-					</div>
-	                <div class="contrast">
-	                <a onclick="addPhoneNum('18736283850','C')">加入备选</a>
-					</div>
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3628 <span>1579</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3628 <span>1579</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736281579')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736281579')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3628 <span>1507</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3628 <span>1507</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736281507')">营业厅预约</a>
-					</div>
-					<!--
-					
-							
-					<div class="buy">	
-					<a onclick="to_buy('18736281507')">立即购买</a>
-					</div>
-	                <div class="contrast">
-	                <a onclick="addPhoneNum('18736281507','C')">加入备选</a>
-					</div>
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 </tr>
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3628 <span>0935</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3628 <span>0935</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736280935')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736280935')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3628 <span>0237</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3628 <span>0237</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736280237')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736280237')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3627 <span>6385</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3627 <span>6385</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736276385')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736276385')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3627 <span>5996</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3627 <span>5996</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736275996')">营业厅预约</a>
-					</div>
-					<!--
-					
-							
-					<div class="buy">	
-					<a onclick="to_buy('18736275996')">立即购买</a>
-					</div>
-	                <div class="contrast">
-	                <a onclick="addPhoneNum('18736275996','C')">加入备选</a>
-					</div>
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 </tr>
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3627 <span>2031</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3627 <span>2031</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736272031')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736272031')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3627 <span>1380</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3627 <span>1380</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736271380')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736271380')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3626 <span>9050</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3626 <span>9050</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736269050')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736269050')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3626 <span>0368</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3626 <span>0368</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736260368')">营业厅预约</a>
-					</div>
-					<!--
-					
-							
-					<div class="buy">	
-					<a onclick="to_buy('18736260368')">立即购买</a>
-					</div>
-	                <div class="contrast">
-	                <a onclick="addPhoneNum('18736260368','C')">加入备选</a>
-					</div>
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 </tr>
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3625 <span>8330</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3625 <span>8330</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736258330')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736258330')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3625 <span>6036</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3625 <span>6036</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736256036')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736256036')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">187 3625 <span>5530</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">187 3625 <span>5530</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18736255530')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18736255530')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">183 3679 <span>3501</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">183 3679 <span>3501</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18336793501')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18336793501')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 </tr>
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">183 3679 <span>3150</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">183 3679 <span>3150</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18336793150')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18336793150')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">183 3678 <span>9860</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">183 3678 <span>9860</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18336789860')">营业厅预约</a>
-					</div>
-					<!--
-					
-							
-					<div class="buy">	
-					<a onclick="to_buy('18336789860')">立即购买</a>
-					</div>
-	                <div class="contrast">
-	                <a onclick="addPhoneNum('18336789860','C')">加入备选</a>
-					</div>
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">183 3678 <span>5093</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">183 3678 <span>5093</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18336785093')">营业厅预约</a>
-					</div>
-					<!--
-					
-					<div class="buy_luck">
-					<a onclick="to_pre('18336785093')">营业厅预约</a>
-					</div>
-					
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 
-          
-	          <td class="tel_td" width="180">
-        		<div class="original">
-	              <div id="ori">
-	                <div class="tel_num1">183 3678 <span>2071</span></div>
-	              </div>
-	              <div class="then">
-	                <div class="tel_num">183 3678 <span>2071</span></div>
-					<div class="buy_luck">
-					<a onclick="to_pre('18336782071')">营业厅预约</a>
-					</div>
-					<!--
-					
-							
-					<div class="buy">	
-					<a onclick="to_buy('18336782071')">立即购买</a>
-					</div>
-	                <div class="contrast">
-	                <a onclick="addPhoneNum('18336782071','C')">加入备选</a>
-					</div>
-					
-					-->
-	              </div>
-	            </div>
-	            </td>
-        	 </tr>
-          
            
            
           <tr>
           <td colspan="4" align="center" height="53" >
-          <script type="text/javascript">function go0(page){if(isNumber(page)){$("#pn").val(page);if($("#nrzsDisplay").length>0) $("#nrzsDisplay").val($("#nrzs_con").css("display"));if($("#highSelectShow").length>0) $("#highSelectShow").val($("#complex").css("display"));submitForm = document.getElementById("paramFrom");submitForm.action ='/mall/kh.html';submitForm.submit();}}function isNumber(s){if(s!=null){var r,re;re = /\d*/i;r = s.match(re);return (r==s)?true:false;}return false;}</script><div class="page1"><a href="javascript:go0('1')">首页</a><a href="javascript:go0('1')">上一页</a><a  class="hot" href="javascript:go0('1')">1</a><a href="javascript:go0('2')">2</a><a href="javascript:go0('3')">3</a><a href="javascript:go0('4')">4</a><a href="javascript:go0('5')">5</a><a href="javascript:go0('6')">6</a><a href="javascript:go0('2')">下一页</a><a href="javascript:go0('184')">尾页</a></div>
+          
           </td>
         </tr>
       </table>
@@ -2605,28 +1631,6 @@ function listSerach(gjz){
     <div class="post">
       <p>商城公告</p>
       <ul>
-        	      	
-        		
-        	      	
-        		
-        			<li><a href="#">在线购卡可办理自选套餐啦！</a></li>
-        		
-        	      	
-        		
-        	      	
-        		
-        	      	
-        		
-        	      	
-        		
-        			<li><a href="#">全省号码都可以在线购买啦！</a></li>
-        		
-        	      	
-        		
-        	      	
-        		
-        	      	
-        		
         	
       </ul>
     </div>
@@ -2653,33 +1657,6 @@ function listSerach(gjz){
 			</div>
 		    <div>
 		    
-		    
-        	
-		    
-        	
-		    
-		    	<div class="blank10"></div>	
-        		<div><a target="_blank" href="http://www.ha.10086.cn/hmall/sell/phoneDetail.do?SP_ID=7703&WT.mc_ev=1209xieka01"><img src="/mall/admin/upload/adv/魅蓝note1231.jpg"></a></div> 
-		    
-        	
-		    
-        	
-		    
-        	
-		    
-        	
-		    
-		    	<div class="blank10"></div>	
-        		<div><a target="_blank" href="http://www.ha.10086.cn/hmall/sell/phoneDetail.do?SP_ID=4299&WT.mc_ev=0520xieka02"><img src="/mall/admin/upload/adv/红米2A-1.jpg"></a></div> 
-		    
-        	
-		    
-		    	<div class="blank10"></div>	
-        		<div><a target="_blank" href="http://www.ha.10086.cn/hmall/sell/phoneDetail.do?SP_ID=1341&WT.mc_ev=0428xieka03"><img src="/mall/admin/upload/adv/note8.jpg"></a></div> 
-		    
-        	
-		    
-        	
         	
         	</div>
   <!--main_right--> 
