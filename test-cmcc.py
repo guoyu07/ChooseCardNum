@@ -14,6 +14,18 @@ def scrape():
 	fp.write(cont)
 	fp.close()
 
+def getNum():
+	fpSource = open('src_cmcc.txt', 'r')		#网页源代码
+	fpDest = open('num_cmcc_1.txt', 'w')	#提取号码，但可能有重复
+	numInLine = '<a onclick="to_pre('
+	
+	getLine = fpSource.readline()
+	while getLine:
+		if numInLine in getLine:		#找到有号码的行
+			cardNum = getLine.split("'")[1]
+			
+		getLine = fpSource.readline()
+	
 def analyse():
 	fp = open('src_cmcc.txt', 'r')
 	cont = fp.read()
