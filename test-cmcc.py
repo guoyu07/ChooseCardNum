@@ -77,9 +77,10 @@ def main():
 		os.remove('num_cmcc.txt')
 	if os.path.exists('num_cmcc_1.txt'):
 		os.remove('num_cmcc_1.txt') 
+			
 	
 	while (True):
-		print 'Page:'+str(page)
+		print('Page: '+str(page))
 		scrape(str(page))
 		getNum()
 		number = removeRepeat()
@@ -89,6 +90,8 @@ def main():
 			
 		page += 1
 	
-		
+	os.remove('num_cmcc_1.txt')
+	os.remove('src_cmcc.txt')
+	
 if __name__ == '__main__':
 	main()
