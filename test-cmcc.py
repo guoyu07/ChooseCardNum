@@ -6,7 +6,7 @@ import datetime
 import os
 
 def scrape(page):
-	urlPrefix = "http://www.ha.10086.cn/mall/kh.html?c=A&sn=&o=&pn="
+	urlPrefix = "http://www.ha.10086.cn/mall/kh.html?c=C&sn=&o=&pn="
 	urlSuffix = "&jx=&month=&day=&law=&gz_card_a=&gz_card_b=&gz_card_c=&gz_card_d=&lucky_num=&unlucky_num=&userDefined=&phoneNo=&show=&phv.phoneNo=&findway="
 	url = urlPrefix + page + urlSuffix
 
